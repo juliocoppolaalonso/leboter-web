@@ -258,7 +258,14 @@
 <body>
 
 <nav>
-  <a class="nav-logo" href="/">LeBote<sup>®</sup></a>
+  <a class="nav-logo" href="/">
+    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" style="vertical-align:-4px;margin-right:7px" aria-hidden="true">
+      <rect x="1" y="8" width="20" height="13" rx="2" stroke="#c9a84c" stroke-width="1.5" fill="none"/>
+      <path d="M1 11h20" stroke="#c9a84c" stroke-width="1.5"/>
+      <path d="M7 8V5a4 4 0 0 1 8 0v3" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M8 11v3h6v-3" stroke="#e8c76a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>LeBote<sup>®</sup>
+  </a>
   <div class="nav-links">
     <a href="https://chess.leboter.com" target="_blank">Latency Chess</a>
     <a href="#about">Acerca de</a>
@@ -267,10 +274,38 @@
 
 <section class="hero">
   <div class="hero-tag">La Boîte · La Caja</div>
+
+  <!-- Logo / ilustración caja -->
+  <div style="margin:0 auto 32px;width:110px;height:110px">
+    <svg viewBox="0 0 110 110" xmlns="http://www.w3.org/2000/svg" aria-label="LeBote logo — una caja abierta">
+      <!-- sombra base -->
+      <ellipse cx="55" cy="98" rx="30" ry="5" fill="#c9a84c" opacity=".18"/>
+      <!-- cuerpo caja -->
+      <rect x="15" y="48" width="80" height="48" rx="4" fill="#1e2233" stroke="#c9a84c" stroke-width="1.8"/>
+      <!-- franja frontal -->
+      <rect x="15" y="62" width="80" height="2" fill="#c9a84c" opacity=".35"/>
+      <!-- tapa izquierda abierta -->
+      <path d="M15 48 Q10 28 28 22 L55 48Z" fill="#171b26" stroke="#c9a84c" stroke-width="1.5" stroke-linejoin="round"/>
+      <!-- tapa derecha abierta -->
+      <path d="M95 48 Q100 28 82 22 L55 48Z" fill="#1a1f35" stroke="#c9a84c" stroke-width="1.5" stroke-linejoin="round"/>
+      <!-- brillo tapa derecha -->
+      <path d="M95 48 Q100 28 82 22 L55 48Z" fill="#c9a84c" opacity=".06"/>
+      <!-- asa/cinta central -->
+      <rect x="46" y="44" width="18" height="8" rx="2" fill="#c9a84c" opacity=".7"/>
+      <!-- piezas asomando: ajedrez -->
+      <text x="36" y="52" font-size="16" fill="#4caf82" opacity=".9" font-family="serif">♟</text>
+      <!-- piezas asomando: vasija -->
+      <text x="62" y="50" font-size="13" fill="#e0a96a" opacity=".85" font-family="serif">🏺</text>
+      <!-- reflejo cuerpo -->
+      <rect x="15" y="48" width="80" height="6" rx="4" fill="#c9a84c" opacity=".07"/>
+    </svg>
+  </div>
+
   <h1><span class="brand">LeBote<sup>®</sup></span><br>La Caja de proyectos</h1>
   <p class="hero-sub">
-    Una colección de <em>juegos y proyectos creativos</em> de Julio César Coppola Alonso —
-    digitales, de mesa y más allá.
+    <em>LeBote</em> viene del francés <em style="font-style:italic;color:var(--di)">La Boîte</em> — la caja.
+    El espacio de <em>Julio&nbsp;César&nbsp;Coppola&nbsp;Alonso</em> para publicar
+    proyectos creativos: juegos digitales, juegos de mesa y todo lo que no cabe en otro lado.
   </p>
   <div class="hero-divider"></div>
 </section>
@@ -325,10 +360,8 @@
 <section class="about" id="about">
   <h2>LeBote® — La Boîte</h2>
   <p>
-    <em>LeBote</em> viene del francés <em>La Boîte</em> — la caja.
-    Es el espacio de <strong>Julio César Coppola Alonso</strong> para
-    publicar proyectos creativos: juegos digitales, juegos de mesa y todo
-    lo que no cabe en otro lado.
+    Una caja de proyectos de <strong>Julio&nbsp;César&nbsp;Coppola&nbsp;Alonso</strong>:
+    juegos digitales, juegos de mesa y todo lo que no cabe en otro lado.
   </p>
 </section>
 
